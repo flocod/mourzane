@@ -1,0 +1,350 @@
+
+@font-face {
+    font-family: "pl";
+    src: url("polices/Poppins-Light.woff2") format("woff2"),
+      url("polices/Poppins-Light.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "qr";
+    src: url("polices/Quicksand-Regular.woff2") format("woff2"),
+      url("polices/Quicksand-Regular.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "qm";
+    src: url("polices/Quicksand-Medium.woff2") format("woff2"),
+      url("polices/Quicksand-Medium.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "ql";
+    src: url("polices/Quicksand-Light.woff2") format("woff2"),
+      url("polices/Quicksand-Light.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "qsb";
+    src: url("polices/Quicksand-SemiBold.woff2") format("woff2"),
+      url("polices/Quicksand-SemiBold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "qb";
+    src: url("polices/Quicksand-Bold.woff") format("woff2"),
+      url("polices/Quicksand-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "pr";
+    src: url("polices/Poppins-Regular.woff2") format("woff2"),
+      url("polices/Poppins-Regular.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "pb";
+    src: url("polices/Poppins-Black.woff2") format("woff2"),
+      url("polices/Poppins-Black.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "pm";
+    src: url("polices/Poppins-Medium.woff2") format("woff2"),
+      url("polices/Poppins-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "ml";
+    src: url("polices/Montserrat-Light.woff2") format("woff2"),
+      url("polices/Montserrat-Light.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "mr";
+    src: url("polices/Montserrat-Regular.woff2") format("woff2"),
+      url("polices/Montserrat-Regular.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "mb";
+    src: url("polices/Montserrat-Bold.woff2") format("woff2"),
+      url("polices/Montserrat-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+
+.contain_box
+{
+display:block;
+width: 100%;
+text-align: center;
+padding: 30px 0px;
+margin-bottom: 80px;
+}
+.contain_box_struct
+{
+display: inline-block;
+width: 80%;
+}
+.contain_flex
+{
+display: inline-flex;
+width: 100%;
+justify-content: space-between;
+
+
+}
+
+.title
+{
+display: inline-block;
+font-size: 20px;
+color: #2b2b2b;
+
+}
+
+.go
+{
+    display: inline-block;
+    font-size: 14px;
+    color: #2b2b2b;
+}
+
+.form_container
+{
+display: inline-block;
+width: 50%;
+
+}
+
+.box_alert
+{
+display: inline-block;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+background-color: #f5f5f5;
+width: 100%;
+font-size: 14px;
+
+}
+
+.title_check
+{
+display:block;
+text-align: left;
+font-size: 20px;
+font-family: pm;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+.input_contain
+{
+display:block;
+width: 100%;
+text-align: left;
+margin-bottom: 20px;
+}
+
+.input_contain .text
+{
+display: block;
+margin-bottom: 8px;
+}
+
+.input_check
+{
+display: block;
+width: 100%;
+height: 45px;
+border: none;
+border: 1px solid;
+padding: 10px;
+
+}
+
+.input_contain_flex
+{
+display: inline-flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+}
+
+
+.input_contain_flex  .input_contain
+{
+display: inline-block;
+width: 48%;
+}
+
+.btn_submit
+{
+display: inline-flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 45px;
+font-size: 14px;
+color: white;
+font-family: pm;
+border: none;
+background: #2b2b2b;
+}
+
+.cart_boxing
+{
+display: inline-block;
+width: 48%;
+text-align: center;
+background: #f5f5f5;
+}
+
+.cart_boxing_struct
+{
+display: inline-block;
+width: 80%;
+text-align: left;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.title_flex
+{
+display: inline-flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+}
+
+.item_product_cart
+{
+display: inline-flex;
+width: 100%;
+justify-content: space-between;
+margin-top: 30px;
+}
+
+.item_product_cart_img
+{
+display: inline-block;
+height: 80px;
+width: 80px;
+margin-right: 10px;
+margin-left: 10px;
+}
+
+.item_product_cart_img img
+{
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+}
+
+.item_product_cart_text
+{
+display: inline-block;
+width: 70%;
+}
+
+.item_product_cart_text .name
+{
+display: inline-block;
+font-family: pm;
+
+}
+
+.item_product_cart_price
+{
+display: inline-block;
+
+font-family: pm;
+width: 100px;
+text-align: right;
+}
+
+.promo_box
+{
+display: inline-block;
+justify-content: left;
+width: 100%;
+margin-bottom: 10px;
+
+}
+
+.promo_box .text
+{
+display: inline-block;
+text-decoration: underline;
+}
+
+.flex_content
+{
+display: inline-flex;
+justify-content: space-between;
+width: 100%;
+margin-top: 15px;
+}
+
+
+@media all and (max-width:848px)
+{
+.contain_flex
+{
+flex-direction: column-reverse;
+}
+.form_container
+{
+width: 100%;
+
+}
+.cart_boxing
+{
+    width: 100%;
+    margin-bottom: 80px;
+}
+}
+
+@media all and (max-width:366px)
+{
+.contain_box_struct
+{
+width: 95%;
+}
+}

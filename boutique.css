@@ -1,0 +1,58 @@
+/* 
+BOUTIQUE STYLE
+*/
+
+.contain_flex_product
+{
+display: inline-flex;
+justify-content:left;
+flex-wrap: wrap;
+width: 100%;
+margin-top: 50px;
+}
+
+
+
+.section3 .product_item {
+    display: inline-block;
+    width: 300px !important;
+
+}
+
+
+.product_item_box {
+   flex-wrap: wrap;
+}
+
+@media all and (max-width:1123px)
+{
+    .product_item_box {
+        justify-content: center;
+
+    }
+}
+
+
+
+
+@media all and (max-width:727px)
+{
+
+    .section3 .product_item {
+        display: inline-block;
+        width: 50% !important;
+    
+    }
+}
+
+@media all and (max-width:727px)
+{
+ 
+
+    .section3 .product_item {
+        display: inline-block;
+        width: 100% !important;
+    
+    }
+}
+
